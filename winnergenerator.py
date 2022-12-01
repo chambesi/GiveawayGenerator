@@ -101,9 +101,6 @@ class Ui_MainWindow(object):
 
     def delete_it(self):
         #grabs selected/current row
-        #issue here
-        #need to figure out how row is passed
-        #need to figure out how to pass rows in listWidget to the array.
         clicked = self.listWidget.currentRow()
 
         #deletes the row after taking it from the selected item in the list
@@ -113,11 +110,10 @@ class Ui_MainWindow(object):
         #this section for testing purposes
         #showing clicked rows as position in array when printed below instead of the name
         print(clicked, " was deleted successfully")
-        print("The variable of this object is this:", type(clicked)) #returned an int
+        #print("The variable of this object is this:", type(clicked)) #returned an int
 
     def clear_it(self):
         self.listWidget.clear()
-
         #for testing purposes
         entryArray.clear()
         print ("The list was cleared successfully.")
@@ -131,10 +127,6 @@ class Ui_MainWindow(object):
     #adding the signal for the button that generates the winner
     #saying not defined, but it actually is
     def generate_it(self):
-        #issue here
-        #listWidget doesn't recognize random.choice
-        #error: random not defined
-        #entryArray = self.listWidget.items()
         index = random.randint(0, self.listWidget.count()-1)
         winner = self.listWidget.item(index).text()
         print (winner + " was the winner. Generate winner button is working.")
