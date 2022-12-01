@@ -108,7 +108,6 @@ class Ui_MainWindow(object):
         self.listWidget.takeItem(clicked)
 
         #this section for testing purposes
-        #showing clicked rows as position in array when printed below instead of the name
         print(clicked, " was deleted successfully")
         #print("The variable of this object is this:", type(clicked)) #returned an int
 
@@ -125,7 +124,6 @@ class Ui_MainWindow(object):
             self.generate_it()
 
     #adding the signal for the button that generates the winner
-    #saying not defined, but it actually is
     def generate_it(self):
         index = random.randint(0, self.listWidget.count()-1)
         winner = self.listWidget.item(index).text()
