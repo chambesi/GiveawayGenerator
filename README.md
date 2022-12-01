@@ -17,4 +17,5 @@ If you try to enter without adding an entry, a label below the list will display
 When you're ready to generate the winner, click the button on the bottom of the window and it will randomly pick a winner.
 
 Original source code citation:
+
 Elder, J (2021) Codemy.com source code (Version 1.0) [Source Code]. https://www.youtube.com/watch?v=EFKI9bu4lrY
