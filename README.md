@@ -4,9 +4,9 @@ pip install pyqt6
 or
 py -m pip install pyqt6
 
-I wrote this program to help me decide how to choose the winner for a giveaway using the random module.
+I wrote this program to help me decide how to choose the winner for a giveaway using the random module and based the concept of the function on John Elder's To Do List code from Codemy.com because it was the closest thing resembling what I wanted the program to do.
 
-You can enter any number of entries and use special characters like @ and the like!
+You can enter any number of entries and use special characters like @ and the like.
 
 To add an entry, you can click Add Entry.
 To remove an entry, you can click on the entry you want to remove, then click Remove Entry.
